@@ -14,14 +14,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <style>
         body{
-            background: #FCFCFC;
+            background: #ffffff;
         }
         .bg{
             background-image:url(images/login-image.png);
             background-position: center center;
-        }
-        btn{
-            text-decoration: none;
         }
     </style>
 </head>
@@ -75,7 +72,7 @@
                         </div-->
                     </div>
                     <div class="my-3 text-end">
-                        <span><a href="#">Me olvidé la contraseña</a></span>
+                        <span><a href="accountCheck.jsp">Me olvidé la contraseña</a></span>
                     </div>
                     <div class="d-grid">
                         <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
