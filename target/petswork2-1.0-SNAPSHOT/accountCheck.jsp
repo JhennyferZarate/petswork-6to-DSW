@@ -61,7 +61,7 @@
                         </div-->
                     </div>
                     <div class="d-grid">
-                        <button type="submit" class="btn btn-primary">Verificar</button>
+                        <a class="btn btn-primary" type="submit" href="changePassword.jsp" role="button">Verificar</a>
                     </div>
                     <div class="my-3 text-center">
                         <span>Acabo de recordar mi contraseña... <a href="login.jsp">Iniciar Sesión</a></span>

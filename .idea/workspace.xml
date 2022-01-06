@@ -10,10 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="472f7328-6c5e-4085-9785-ac78974b1ed5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/accountCheck.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/changePassword.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/accountCheck.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/accountCheck.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/accountCheck.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/accountCheck.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/register.jsp" afterDir="false" />
     </list>
@@ -157,7 +158,7 @@
       <updated>1641315904086</updated>
       <workItem from="1641315904621" duration="3768000" />
       <workItem from="1641343899157" duration="2641000" />
-      <workItem from="1641395758738" duration="30312000" />
+      <workItem from="1641395758738" duration="33444000" />
     </task>
     <servers />
   </component>
@@ -174,5 +175,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/register.jsp</url>
+          <line>91</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

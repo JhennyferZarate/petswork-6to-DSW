@@ -89,7 +89,7 @@
                         </div-->
                     </div>
                     <div class="d-grid">
-                        <button type="submit" class="btn btn-primary">Aceptar y Unirse</button>
+                        <a class="btn btn-primary" type="submit" href="login.jsp" role="button">Aceptar y Unirse</a>
                     </div>
                     <div class="my-3 text-center">
                         <span>¿Ya tienes una cuenta? <a href="#">Ingresa</a></span>

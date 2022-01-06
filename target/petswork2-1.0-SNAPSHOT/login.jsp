@@ -20,9 +20,6 @@
             background-image:url(images/login-image.png);
             background-position: center center;
         }
-        btn{
-            text-decoration: none;
-        }
     </style>
 </head>
 <body>
