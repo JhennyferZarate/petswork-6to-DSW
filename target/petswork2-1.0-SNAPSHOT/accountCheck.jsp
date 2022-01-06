@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   User: jhenn
   Date: 5/01/2022
-  Time: 18:36
+  Time: 19:46
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Regístrate | Pet's Work</title>
+    <title>Comprobación de cuenta | Pet's Work</title>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -21,7 +21,7 @@
             background: #ffffff;
         }
         .bg{
-            background-image:url(images/register-work.png);
+            background-image:url(images/account-image.png);
             background-position: center center;
         }
     </style>
@@ -41,39 +41,21 @@
             </header>
         </div>
     </nav>
-
     <div class="container w-75 bg-primary mt-5 rounded shadow">
         <div class="row align-items-stretch">
             <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded-end">
             </div>
             <div class="col bg-white p-5 rounded-end">
-                <h2 class="fw-bold text-center py-5">¡Únete a Pet's Work!</h2>
+                <div class="text-center">
+                    <img src="images/logo.png" width="" alt="" >
+                </div>
+                <h2 class="fw-bold text-center py-5">¿Tienes una cuenta en Pet's Work?</h2>
 
-                <!- REGISTER -->
+                <!- ACCOUNT CHECK -->
 
                 <form action="#" class="needs-validation" novalidate>
                     <div class="mb-4">
-                        <label for="name" class="form-label">Nombres:</label>
-                        <input type="text" id="validationName" class="form-control" name="name" placeholder="Ingrese sus nombres completos" required>
-                        <!--div class="valid-feedback" id="nameValid">
-                            ¡Excelente!
-                        </div>
-                        <div class="invalid-feedback" id="nameInvalid">
-                            Por favor ingrese sus nombres completos.
-                        </div-->
-                    </div>
-                    <div class="mb-4">
-                        <label for="lastName" class="form-label">Apellidos:</label>
-                        <input type="text" id="validationLastName" class="form-control" name="lastName" placeholder="Ingrese sus apellidos completos" required>
-                        <!--div class="valid-feedback" id="lastNameValid">
-                            ¡Excelente!
-                        </div>
-                        <div class="invalid-feedback" id="lastNameInvalid">
-                            Por favor ingrese sus apellidos completos.
-                        </div-->
-                    </div>
-                    <div class="mb-4">
-                        <label for="email" class="form-label">Correo Electrónico:</label>
+                        <p for="email" class="fw text-center py-2">Ingresa <span class="fw-bold">el correo electrónico</span> con el que te registraste..</p>
                         <input type="email" id="validationEmail" class="form-control" name="email" placeholder="Ingrese su correo electrónico" required>
                         <!--div class="valid-feedback" id="emailValid">
                             ¡Excelente!
@@ -82,21 +64,11 @@
                             Por favor ingrese su correo electrónico.
                         </div-->
                     </div>
-                    <div class="mb-4">
-                        <label for="password" class="form-label">Contraseña:</label>
-                        <input type="password" id="validationPasssword" class="form-control" name="password" placeholder="Ingrese su contraseña" required>
-                        <!--div class="valid-feedback" id="passswordValid">
-                            ¡Excelente!
-                        </div>
-                        <div class="invalid-feedback" id="passswordInvalid">
-                            Por favor ingrese su contraseña correctamente.
-                        </div-->
-                    </div>
                     <div class="d-grid">
-                        <a class="btn btn-primary" type="submit" href="login.jsp" role="button">Aceptar y Unirse</a>
+                        <a class="btn btn-primary" type="submit" href="changePassword.jsp" role="button">Verificar</a>
                     </div>
                     <div class="my-3 text-center">
-                        <span>¿Ya tienes una cuenta? <a href="#">Ingresa</a></span>
+                        <span>Acabo de recordar mi contraseña... <a href="login.jsp">Iniciar Sesión</a></span>
                     </div>
                 </form>
             </div>
@@ -121,5 +93,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
+
 </body>
 </html>
