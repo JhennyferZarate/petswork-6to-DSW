@@ -10,6 +10,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Iniciar Sesión | Pet's Work</title>
 
     <!-- Bootstrap CSS -->
@@ -74,6 +75,10 @@
             background-color: black;
             color: white;
         }
+        .form-control{
+            border: 1px solid #474747;
+            border-radius: 10px 10px 10px 10px;
+        }
         footer{
             position: absolute;
             width: 100%;
@@ -98,13 +103,15 @@
 </nav>
 
 <body>
-    <div class="container w-75 bg-primary mt-5 rounded shadow">
-        <div class="row align-items-stretch" style="border: 1.5px solid #000000;
-            border-radius: 10px;
+    <div class="container w-75 bg-primary mt-5 shadow" style="background-color: white; border-radius: 10px 10px 10px 10px;">
+        <div class="row align-items-stretch" >
+            <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6" style="border: 1.5px solid #000000;
+            border-radius: 10px 0px 0px 10px;
             color: #000000;">
-            <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded-end">
             </div>
-            <div class="col bg-white p-5 rounded-end">
+            <div class="col bg-white p-5" style="border: 1.5px solid #000000;
+            border-radius: 0px 10px 10px 0px;
+            color: #000000;">
                 <div class="text-center">
                     <img src="images/logo.png" width="" alt="" >
                 </div>
@@ -115,7 +122,7 @@
                 <form action="#" class="needs-validation" novalidate>
                     <div class="mb-4">
                         <label for="email" class="form-label titulo" style="font-weight: bold;">Correo Electrónico:</label>
-                        <input type="email" id="validationEmail" class="form-control" name="email" placeholder="Ejm: juanrodriguez@gmail.com" required>
+                        <input type="email" id="validationEmail" class="form-control" name="email" placeholder="Ej. juanrodriguez@gmail.com" required>
                         <!--div class="valid-feedback" id="emailValid">
                             ¡Excelente!
                         </div>
@@ -125,7 +132,7 @@
                     </div>
                     <div class="mb-4">
                         <label for="password" class="form-label titulo" style="font-weight: bold;">Contraseña:</label>
-                        <input type="password" id="validationPasssword" class="form-control" name="password" placeholder="Ingrese su contraseña" required>
+                        <input type="password" id="validationPasssword" class="form-control" name="password" placeholder="Ej. petswork" required>
                         <!--div class="valid-feedback" id="passswordValid">
                             ¡Excelente!
                         </div>
