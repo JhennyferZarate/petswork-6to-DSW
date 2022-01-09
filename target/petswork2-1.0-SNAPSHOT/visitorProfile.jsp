@@ -10,7 +10,9 @@
 <head>
     <meta charset="UTF-8">
     <META name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Perfil | Pet's Work</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <style>
@@ -36,30 +38,67 @@
             color: #000000;
             margin-top: 15px;
         }
-
+        .titulo{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 18px;
+            color: #000000;
+        }
+        .titulo2{
+            font-family: Rambla;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 30px;
+            color: #000000;
+            margin-top: 15px;
+        }
+        .titulo5{
+            font-family: Red Hat Text;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 18px;
+        }
+        .btn{
+            border: 1.5px solid #000000;
+            border-radius: 10px;
+            color: #000000;
+        }
+        .btn:hover{
+            border: 1.5px solid #000000;
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+        }
+        footer{
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
     </style>
 </head>
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg" style="box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);" >
-    <!-- Container wrapper -->
-    <div class="container-fluid p-2">
-        <a class="navbar-brand" href="#" style="margin-left: 1em;">
-            <img
-                    src="logo.png"
-                    height="52"
-            />
-        </a>
-        <div class="d-flex align-items-center">
-            <img
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (31).webp"
-                    class="rounded-circle"
-                    style="border: 1px solid  rgba(0, 0, 0, 0.911);"
-                    height="52"
-            />
-            <i class='bx bx-chevron-down' style="height: 20; width: 40px; color: rgba(0, 0, 0, 0.911);"></i>
-        </div>
+
+<!- BARRA DE NAVEGACIÓN -->
+<nav class="bg-light">
+    <div class="container">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+            <a href="index.jsp" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                <img class="bi me-2" src="images/logo.png" width="100" alt="">
+            </a>
+            <div class="dropdown">
+                <a class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser" data-bs-toggle="dropdown" type="button">
+                    <img src="images/person.png" alt="mdo" width="50" height="50" class="rounded-circle"
+                         style="border: 1px solid #474747;">
+                </a>
+                <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser">
+                    <li><a class="dropdown-item" href="myProfile.jsp">Mi Perfil</a></li>
+                    <li><a class="dropdown-item" href="index.jsp">Cerrar Sesión</a></li>
+                </ul>
+            </div>
+        </header>
     </div>
-    <!-- Container wrapper -->
 </nav>
 
 <body>
@@ -67,7 +106,8 @@
         <div class="row m-2 align-items-center" style="border: 1px solid #000000; border-radius: 10px;">
             <div class="col-md-4  text-center mb-3">
                 <div class="avatar avatar-xl m-3">
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (31).webp" alt="..." class="avatar-img rounded-circle" style="border: 1px solid  rgba(0, 0, 0, 0.911);" />
+                    <img src="images/person.png" alt="..." class="avatar-img rounded-circle" style="border: 1px solid  rgba(0, 0, 0, 0.911);"
+                         width="180" height="180" />
                 </div>
             </div>
             <div class="col mt-4">
@@ -81,7 +121,6 @@
                             font-size: 30px;
                             line-height: 43px;
                             color: #000000;">John Antonio Rosales Maldonado</h4>
-
                     </div>
                 </div>
                 <div class="row mt-4">
@@ -124,19 +163,40 @@
         <div class="row gx-5">
             <div class="col">
                 <div class= "container mt-2" style="border: 1px solid #000000; border-radius: 10px;">
-                    <p class="titulo2"><b>Educación</b></p>
-                    <center><p class="titulo"><b>Próximamente</b></p></center>
-                    <center><i class='bx bx-walk' style="font-size: 120px; margin-bottom: 25px; margin-top: 10px;"></i></center>
+                    <p class="titulo2"><b>Educación:</b></p>
+                    <center><p class="titulo text-center"><b>Próximamente</b></p></center>
+                    <center><i class='bx bx-walk center-block' style="font-size: 120px; margin-bottom: 25px; margin-top: 10px;"></i></center>
                 </div>
             </div>
             <div class="col">
                 <div class= "container m-2 " style="border: 1px solid #000000; border-radius: 10px;">
                     <p class="titulo2"><b>Experiencia Laboral:</b> </p>
-                    <center><p class="titulo"><b>Próximamente</b></p></center>
-                    <center><i class='bx bx-walk' style="font-size: 120px; margin-bottom: 25px; margin-top: 10px;"></i></center>
+                    <center><p class="titulo text-center"><b>Próximamente</b></p></center>
+                    <center><i class="bx bx-walk center-block" style="font-size: 120px; margin-bottom: 25px; margin-top: 10px;"></i></center>
+                </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
 </body>
+
+<!- FOOTER -->
+<footer class="bg-dark text-white pt-3 pb-2">
+    <div class="container text-center text-md-left" >
+        <p class="titulo5">Diseño de Software - Ciclo VI - Ingeniería de Software</p>
+        <p class="titulo5">Universidad Nacional Mayor de San Marcos | 2021 - II</p>
+    </div>
+</footer>
+
 </html>
