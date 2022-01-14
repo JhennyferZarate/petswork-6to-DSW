@@ -13,20 +13,25 @@
 
     <title>Comprobación de cuenta | Pet's Work</title>
 
+    <link rel="stylesheet" href="./css/styles.css">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Rambla&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300&display=swap');
-        body{
-            background: #ffffff;
-            font-family: Red Hat Text;
-        }
+
         .bg{
             background-image:url(images/account-image.png);
             background-position: center center;
         }
+
+        body{
+            background: #ffffff;
+            font-family: Red Hat Text;
+        }
+
         .titulo{
             font-style: normal;
             font-weight: normal;
@@ -57,6 +62,7 @@
             font-size: 20px;
             line-height: 30px;
         }
+
         .titulo5{
             font-family: Red Hat Text;
             font-style: normal;
@@ -102,6 +108,7 @@
     </div>
 </nav>
 
+<!- CUERPO DE LA PÁGINA -->
 <body>
     <div class="container w-75 bg-primary mt-5 shadow" style="background-color: white; border-radius: 10px 10px 10px 10px;">
         <div class="row align-items-stretch">
@@ -109,11 +116,12 @@
             border-radius: 10px 0px 0px 10px;
             color: #000000;">
             </div>
-            <div class="col bg-white p-5" style="border: 1.5px solid #000000;
-            border-radius: 0px 10px 10px 0px;
-            color: #000000;">
+            <div class="col bg-white p-5"
+                style="border: 1.5px solid #000000;
+                border-radius: 0px 10px 10px 0px;
+                color: #000000;">
                 <div class="text-center">
-                    <img src="images/logo.png" width="" alt="" >
+                    <img src="./images/logo.png" width="" alt="" >
                 </div>
                 <h2 class="titulo2 text-center py-5">¿Tienes una cuenta en Pet's Work?</h2>
 

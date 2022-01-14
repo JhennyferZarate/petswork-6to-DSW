@@ -101,6 +101,7 @@
     </div>
 </nav>
 
+<!- CUERPO DE LA PÁGINA -->
 <body>
     <div class="container-xl mt-5">
         <div class="row m-2 align-items-center" style="border: 1px solid #000000; border-radius: 10px;">
@@ -113,9 +114,8 @@
             <div class="col mt-4">
                 <div class="row align-items-center">
                     <div class="col-md-8">
-                        <h4 class="mb-1" style="
-
-                            font-family: Rambla;
+                        <h4 class="mb-1"
+                            style="font-family: Rambla;
                             font-style: normal;
                             font-weight: bold;
                             font-size: 30px;
@@ -150,9 +150,10 @@
 
                     </div>
                     <div class="col-md-3">
-                        <button class="btn" style="border: 1.5px solid #000000;
-                      box-sizing: border-box;
-                      border-radius: 10px;"><i class='bx bx-cloud-upload' style="font-size: 20px;"></i><span style="margin-left: 7px;">CV | Resumé</span></button>
+                        <button class="btn"
+                            style="border: 1.5px solid #000000;
+                            box-sizing: border-box;
+                            border-radius: 10px;"><i class='bx bx-cloud-upload' style="font-size: 20px;"></i><span style="margin-left: 7px;">CV | Resumé</span></button>
                     </div>
                 </div>
             </div>

@@ -90,6 +90,7 @@
     </div>
 </nav>
 
+<!- CUERPO DE LA PÁGINA -->
 <body>
     <div class="container justify-center-center align-items-center pt-5 mt-3">
         <h1 class="d-flex titulo2">¡Te damos la bienvenida a tu comunidad profesional!

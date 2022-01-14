@@ -10,11 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="472f7328-6c5e-4085-9785-ac78974b1ed5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jobOfferDisplay.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jobOfferManagement.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/accountCheck.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/accountCheck.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/changePassword.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/changePassword.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/myProfile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/myProfile.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/postJobOffer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/postJobOffer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/visitorProfile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/visitorProfile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/accountCheck.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/accountCheck.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/changePassword.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/changePassword.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/myProfile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/myProfile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/postJobOffer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/postJobOffer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/visitorProfile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/visitorProfile.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +74,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../poo-platzi" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -167,7 +182,11 @@
       <workItem from="1641343899157" duration="2641000" />
       <workItem from="1641395758738" duration="35190000" />
       <workItem from="1641478804487" duration="16069000" />
-      <workItem from="1641686363237" duration="23149000" />
+      <workItem from="1641686363237" duration="23574000" />
+      <workItem from="1641860752030" duration="1276000" />
+      <workItem from="1641907655523" duration="1718000" />
+      <workItem from="1642027655319" duration="10380000" />
+      <workItem from="1642107668802" duration="5106000" />
     </task>
     <servers />
   </component>

@@ -102,6 +102,7 @@
     </div>
 </nav>
 
+<!- CUERPO DE LA PÁGINA -->
 <body>
     <div class="container w-75 bg-primary mt-5 shadow" style="background-color: white; border-radius: 10px 10px 10px 10px;">
         <div class="row align-items-stretch">
@@ -121,7 +122,7 @@
 
                 <form action="#" class="needs-validation" novalidate>
                     <div class="mb-4">
-                        <label for="newPassword" class="form-label titulo" style="font-weight: bold;">Nueva Contraseña:</label>
+                        <%--@declare id="newpassword"--%><label for="newPassword" class="form-label titulo" style="font-weight: bold;">Nueva Contraseña:</label>
                         <input type="password" id="validationPasssword" class="form-control" name="newPassword" placeholder="Ej. petswork" required>
                         <!--div class="valid-feedback" id="newPassswordValid">
                             ¡Excelente!
@@ -131,7 +132,7 @@
                         </div-->
                     </div>
                     <div class="mb-4">
-                        <label for="repeatPassword" class="form-label titulo" style="font-weight: bold;">Repita la nueva contraseña:</label>
+                        <%--@declare id="repeatpassword"--%><label for="repeatPassword" class="form-label titulo" style="font-weight: bold;">Repita la nueva contraseña:</label>
                         <input type="password" id="validationRepeatPasssword" class="form-control" name="repeatPassword" placeholder="Ej. petswork" required>
                         <!--div class="valid-feedback" id="repeatPassswordValid">
                             ¡Excelente!
