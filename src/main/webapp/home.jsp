@@ -1,28 +1,36 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-<!DOCTYPE html>
+<%--
+  Created by IntelliJ IDEA.
+  User: jhenn
+  Date: 12/01/2022
+  Time: 20:15
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <META name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Bienvenido | Pet's Work</title>
+    <title>Inicio | Pet's Work</title>
 
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Rambla&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300&display=swap');
         body{
-            background: url(images/index-image.png) no-repeat center center fixed;
-            min-height:100vh;
-            background-size:cover;
+            background: #FCFCFC;
+        }
+        .bg{
+            background-image:url(images/login-image.png);
+            background-position: center center;
         }
         .titulo{
             font-family: Red Hat Text;
             font-style: normal;
             font-weight: normal;
-            font-size: 30px;
+            font-size: 18px;
             line-height: 33px;
             color: #000000;
         }
@@ -30,24 +38,18 @@
             font-family: Rambla;
             font-style: normal;
             font-weight: bold;
-            font-size: 50px;
-            line-height: 50px;
+            font-size: 30px;
+            line-height: 43px;
             color: #000000;
             margin-top: 15px;
         }
         .titulo3{
-            font-family: Rambla;
+            font-family: Red Hat Text;
             font-style: normal;
             font-weight: normal;
-            font-size: 20px;
-            line-height: 30px;
-        }
-        .titulo4{
-            font-family: Rambla;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 20px;
-            line-height: 30px;
+            font-size: 14px;
+            line-height: 20px;
+            color: #000000;
         }
         .titulo5{
             font-family: Red Hat Text;
@@ -55,17 +57,6 @@
             font-weight: normal;
             font-size: 15px;
             line-height: 18px;
-        }
-        .btn{
-            border: 1.5px solid #000000;
-            border-radius: 10px;
-            color: #000000;
-        }
-        .btn:hover{
-            border: 1.5px solid #000000;
-            border-radius: 10px;
-            background-color: black;
-            color: white;
         }
         footer{
             position: absolute;
@@ -79,12 +70,18 @@
 <nav class="bg-light">
     <div class="container">
         <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
-            <a href="index.jsp" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+            <a href="home.jsp" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
                 <img class="bi me-2" src="images/logo.png" width="100" alt="">
             </a>
-            <div class="col-md-3 text-end">
-                <a class="btn titulo3 me-2" href="register.jsp" role="button">Registrarme</a>
-                <a class="btn titulo4" href="login.jsp" role="button">Iniciar Sesión</a>
+            <div class="dropdown">
+                <a class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser" data-bs-toggle="dropdown" type="button">
+                    <img src="images/person.png" alt="mdo" width="50" height="50" class="rounded-circle"
+                         style="border: 1px solid #474747;">
+                </a>
+                <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser">
+                    <li><a class="dropdown-item" href="myProfile.jsp">Mi Perfil</a></li>
+                    <li><a class="dropdown-item" href="index.jsp">Cerrar Sesión</a></li>
+                </ul>
             </div>
         </header>
     </div>
@@ -92,12 +89,6 @@
 
 <!- CUERPO DE LA PÁGINA -->
 <body>
-    <div class="container justify-center-center align-items-center pt-5 mt-3">
-        <h1 class="d-flex titulo2">¡Te damos la bienvenida a tu comunidad profesional!
-        </h1>
-        <h2 class="d-flex titulo">#Mascotas
-        </h2>
-    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -118,5 +109,4 @@
         <p class="titulo5">Universidad Nacional Mayor de San Marcos | 2021 - II</p>
     </div>
 </footer>
-
 </html>

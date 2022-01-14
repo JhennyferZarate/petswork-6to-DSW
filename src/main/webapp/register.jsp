@@ -102,6 +102,7 @@
     </div>
 </nav>
 
+<!- CUERPO DE LA PÁGINA -->
 <body>
     <div class="container w-75 bg-primary mt-5 shadow" style="background-color: white; border-radius: 10px 10px 10px 10px;" >
         <div class="row align-items-stretch">
@@ -118,7 +119,7 @@
 
                 <form action="#" class="needs-validation" novalidate>
                     <div class="mb-4">
-                        <label for="name" class="form-label titulo" style="font-weight: bold;">Nombres:</label>
+                        <%--@declare id="name"--%><label for="name" class="form-label titulo" style="font-weight: bold;">Nombres:</label>
                         <input type="text" id="validationName" class="form-control" name="name" placeholder="Ej. Juan Martín" required>
                         <!--div class="valid-feedback" id="nameValid">
                             ¡Excelente!
@@ -128,7 +129,7 @@
                         </div-->
                     </div>
                     <div class="mb-4">
-                        <label for="lastName" class="form-label titulo" style="font-weight: bold;">Apellidos:</label>
+                        <%--@declare id="lastname"--%><label for="lastName" class="form-label titulo" style="font-weight: bold;">Apellidos:</label>
                         <input type="text" id="validationLastName" class="form-control" name="lastName" placeholder="Ej. Rodriguez Torres" required>
                         <!--div class="valid-feedback" id="lastNameValid">
                             ¡Excelente!
@@ -138,7 +139,7 @@
                         </div-->
                     </div>
                     <div class="mb-4">
-                        <label for="email" class="form-label titulo" style="font-weight: bold;">Correo Electrónico:</label>
+                        <%--@declare id="email"--%><label for="email" class="form-label titulo" style="font-weight: bold;">Correo Electrónico:</label>
                         <input type="email" id="validationEmail" class="form-control" name="email" placeholder="Ej. juanrodriguez@gmail.com" required>
                         <!--div class="valid-feedback" id="emailValid">
                             ¡Excelente!
@@ -148,7 +149,7 @@
                         </div-->
                     </div>
                     <div class="mb-4">
-                        <label for="password" class="form-label titulo" style="font-weight: bold;">Contraseña:</label>
+                        <%--@declare id="password"--%><label for="password" class="form-label titulo" style="font-weight: bold;">Contraseña:</label>
                         <input type="password" id="validationPasssword" class="form-control" name="password" placeholder="Ej. petswork" required>
                         <!--div class="valid-feedback" id="passswordValid">
                             ¡Excelente!

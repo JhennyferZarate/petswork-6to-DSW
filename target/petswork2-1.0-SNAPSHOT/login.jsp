@@ -13,6 +13,8 @@
 
     <title>Iniciar Sesión | Pet's Work</title>
 
+    <link rel="stylesheet" href="./css/styles.css">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
@@ -102,6 +104,7 @@
     </div>
 </nav>
 
+<!- CUERPO DE LA PÁGINA -->
 <body>
     <div class="container w-75 bg-primary mt-5 shadow" style="background-color: white; border-radius: 10px 10px 10px 10px;">
         <div class="row align-items-stretch" >
@@ -121,7 +124,7 @@
 
                 <form action="#" class="needs-validation" novalidate>
                     <div class="mb-4">
-                        <label for="email" class="form-label titulo" style="font-weight: bold;">Correo Electrónico:</label>
+                        <%--@declare id="email"--%><label for="email" class="form-label titulo" style="font-weight: bold;">Correo Electrónico:</label>
                         <input type="email" id="validationEmail" class="form-control" name="email" placeholder="Ej. juanrodriguez@gmail.com" required>
                         <!--div class="valid-feedback" id="emailValid">
                             ¡Excelente!
@@ -131,7 +134,7 @@
                         </div-->
                     </div>
                     <div class="mb-4">
-                        <label for="password" class="form-label titulo" style="font-weight: bold;">Contraseña:</label>
+                        <%--@declare id="password"--%><label for="password" class="form-label titulo" style="font-weight: bold;">Contraseña:</label>
                         <input type="password" id="validationPasssword" class="form-control" name="password" placeholder="Ej. petswork" required>
                         <!--div class="valid-feedback" id="passswordValid">
                             ¡Excelente!
@@ -144,10 +147,10 @@
                         <span><a href="accountCheck.jsp" style="font-weight: bold;">Me olvidé la contraseña</a></span>
                     </div>
                     <div class="d-grid">
-                        <a class="btn titulo4" type="submit" href="#" role="button">Ingresar</a>
+                        <a class="btn titulo4" type="submit" href="./home.jsp" role="button">Ingresar</a>
                     </div>
                     <div class="my-3 text-center" style="font-weight: bold;">
-                        <span>¿No tienes cuenta? <a href="#">Regístrate</a></span>
+                        <span>¿No tienes cuenta? <a href="./register.jsp">Regístrate</a></span>
                     </div>
                 </form>
             </div>

@@ -120,7 +120,7 @@
 
                 <form action="#" class="needs-validation" novalidate>
                     <div class="mb-4">
-                        <label for="jobTitle" class="form-label titulo">Cargo:</label>
+                        <%--@declare id="jobtitle"--%><label for="jobTitle" class="form-label titulo">Cargo:</label>
                         <input type="text" id="validationJobTitle" class="form-control" name="jobTitle" placeholder="Ingrese el cargo a brindar" required>
                         <!--div class="valid-feedback" id="jobTitleValid">
                             ¡Excelente!
@@ -130,7 +130,7 @@
                         </div-->
                     </div>
                     <div class="mb-4">
-                        <label for="business" class="form-label titulo">Empresa:</label>
+                        <%--@declare id="business"--%><label for="business" class="form-label titulo">Empresa:</label>
                         <input type="text" id="validationBusiness" class="form-control" name="business" placeholder="Ingrese el nombre de la empresa" required>
                         <!--div class="valid-feedback" id="businessValid">
                             ¡Excelente!
@@ -140,7 +140,7 @@
                         </div-->
                     </div>
                     <div class="mb-4">
-                        <label for="typeWorkplace" class="form-label titulo">Tipo de lugar de trabajo:</label>
+                        <%--@declare id="typeworkplace"--%><label for="typeWorkplace" class="form-label titulo">Tipo de lugar de trabajo:</label>
                         <select type="text" id="validationTypeWorkplace" class="form-select" name="typeWorkplace" placeholder="Seleccione una opción" required>
                             <option value="1">Presencial</option>
                             <option value="2">Híbrido</option>
@@ -148,11 +148,11 @@
                         </select>
                     </div>
                     <div class="mb-4">
-                        <label for="location" class="form-label titulo">Ubicación del empleo:</label>
+                        <%--@declare id="location"--%><label for="location" class="form-label titulo">Ubicación del empleo:</label>
                         <input type="text" class="form-control" name="location" placeholder="Ingrese la ubicación de la empresa" required>
                     </div>
                     <div class="mb-4">
-                    <label for="typeWork" class="form-label titulo">Tipo de lugar de trabajo:</label>
+                    <%--@declare id="typework"--%><label for="typeWork" class="form-label titulo">Tipo de lugar de trabajo:</label>
                     <select type="text" id="validationTypeWork" class="form-select" name="typeWork" placeholder="Seleccione una opción" required>
                         <option value="1">Jornada Completa</option>
                         <option value="2">Media Jornada</option>

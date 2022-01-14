@@ -10,9 +10,12 @@
 <head>
     <meta charset="UTF-8">
     <META name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Perfil | Pet's Work</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Rambla&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300&display=swap');
@@ -90,6 +93,7 @@
     </div>
 </nav>
 
+<!- CUERPO DE LA PÁGINA -->
 <body>
     <div class="container-xl mt-5">
         <div class="row m-2 align-items-center" style="border: 1px solid #000000; border-radius: 10px;">
