@@ -95,7 +95,7 @@
                             padding-left: 0px;
                             padding-right: 0px;
                             padding-bottom: 1rem;" >
-                    <p class="titulo2" style=" font-size: 22px;line-height: normal;"><i class='bx bx-arrow-back' href="home.jsp" style="margin-right: 10px; font-size: 18px; "></i>Avisos Laborales</p>
+                    <a class="titulo2" style=" font-size: 22px;line-height: normal;" href="home.jsp"><i class='bx bx-arrow-back' style="margin-right: 10px; font-size: 18px; "></i>Avisos Laborales</a>
             </div>
                 </div>
             <div class="col" >

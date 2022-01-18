@@ -89,6 +89,115 @@
 
 <!- CUERPO DE LA PÁGINA -->
 <body>
+    <div class="container-xl px-4 mb-4 mt-4" >
+        <div class="row gx-5">
+            <div class="col-md-3">
+                <div class="row">
+                    <div class= "container mt-1" style="border: 1px solid #000000; border-radius: 10px;">
+                        <center>
+                            <i class='bx bx-bookmark' style="font-size: 30px; margin-bottom: 12px; margin-top: 10px;"><span class="titulo" style="margin-left: 15px;">Mis Postulaciones</span></i>
+                        </center>
+
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class= "container mt-2 align-items-center" style="border: 1px solid #000000; border-radius: 10px;">
+                        <center>
+                            <button class="btn m-3" style="border: 1.5px solid #000000;
+                      box-sizing: border-box;
+                      border-radius: 10px; "><i class='bx bx-edit'  style="font-size: 25px;"><a class="titulo" href="postJobOffer.jsp" style="margin-left: 10px; text-decoration: none">Publicar un Empleo</a></i></button>
+                            <i class='bx bx-briefcase'  style="font-size: 30px; margin-bottom: 12px; margin-top: 10px; line-height: normal;" ><a class="titulo" href="management.jsp" style="margin-left: 15px; text-decoration: none">Gestionar Anuncios de Empleo</a></i>
+                        </center>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-8">
+                <div class= "container m-2 " >
+                    <p class="titulo2">Ofertas Laborales</p>
+                    <div class="row mt-1 p-2" style="border: 1px solid #000000; border-radius: 10px;">
+                        <div class= "col-md-2">
+                            <center><i class='bx bx-buildings'   style="font-size: 60px; margin-top: 13px;" ></i></center>
+                        </div>
+                        <div class= "col-md-7">
+                            <a class="titulo2" style="font-size: 20px; line-height: 15px; margin-bottom: 0px; text-decoration: none;" href="jobOfferDisplay.jsp" >Practicante Pre profesional de Marketing Digital</a>
+                            <p class="titulo2"  style="font-size: 18px; margin-top: 0px; font-weight: normal;">Veterinaria “Patitas”  |  Lima, Lima, Perú  |  Remoto</p>
+                        </div>
+                        <div class= "col-md-3">
+                            <p class="titulo3"  style="color:  #353535; line-height: 15px; margin-bottom: 0px; margin-top: 13px;">Hace 5 horas</p>
+                            <p class="titulo3" style="color:  #4F4F4F; font-style: italic; margin-top: 5px;">5 postulaciones</p>
+                        </div>
+                    </div>
+                    <div class="row mt-1 p-2" style="border: 1px solid #000000; border-radius: 10px;">
+                        <div class= "col-md-2">
+                            <center><i class='bx bx-buildings'   style="font-size: 60px; margin-top: 13px;" ></i></center>
+                        </div>
+                        <div class= "col-md-7">
+                            <a class="titulo2" style="font-size: 20px; line-height: 15px; margin-bottom: 0px; text-decoration: none;" href="jobOfferDisplay.jsp" >Practicante Pre profesional de Marketing Digital</a>
+                            <p class="titulo2"  style="font-size: 18px; margin-top: 0px; font-weight: normal;">Veterinaria “Patitas”  |  Lima, Lima, Perú  |  Remoto</p>
+                        </div>
+                        <div class= "col-md-3">
+                            <p class="titulo3"  style="color:  #353535; line-height: 15px; margin-bottom: 0px; margin-top: 13px;">Hace 5 horas</p>
+                            <p class="titulo3" style="color:  #4F4F4F; font-style: italic; margin-top: 5px;">5 postulaciones</p>
+                        </div>
+                    </div>
+                    <div class="row mt-1 p-2" style="border: 1px solid #000000; border-radius: 10px;">
+                        <div class= "col-md-2">
+                            <center><i class='bx bx-buildings'   style="font-size: 60px; margin-top: 13px;" ></i></center>
+                        </div>
+                        <div class= "col-md-7">
+                            <a class="titulo2" style="font-size: 20px; line-height: 15px; margin-bottom: 0px; text-decoration: none;" href="jobOfferDisplay.jsp" >Practicante Pre profesional de Marketing Digital</a>
+                            <p class="titulo2"  style="font-size: 18px; margin-top: 0px; font-weight: normal;">Veterinaria “Patitas”  |  Lima, Lima, Perú  |  Remoto</p>
+                        </div>
+                        <div class= "col-md-3">
+                            <p class="titulo3"  style="color:  #353535; line-height: 15px; margin-bottom: 0px; margin-top: 13px;">Hace 5 horas</p>
+                            <p class="titulo3" style="color:  #4F4F4F; font-style: italic; margin-top: 5px;">5 postulaciones</p>
+                        </div>
+                    </div>
+                    <div class="row mt-1 p-2" style="border: 1px solid #000000; border-radius: 10px;">
+                        <div class= "col-md-2">
+                            <center><i class='bx bx-buildings'   style="font-size: 60px; margin-top: 13px;" ></i></center>
+                        </div>
+                        <div class= "col-md-7">
+                            <a class="titulo2" style="font-size: 20px; line-height: 15px; margin-bottom: 0px; text-decoration: none;" href="jobOfferDisplay.jsp" >Practicante Pre profesional de Marketing Digital</a>
+                            <p class="titulo2"  style="font-size: 18px; margin-top: 0px; font-weight: normal;">Veterinaria “Patitas”  |  Lima, Lima, Perú  |  Remoto</p>
+                        </div>
+                        <div class= "col-md-3">
+                            <p class="titulo3"  style="color:  #353535; line-height: 15px; margin-bottom: 0px; margin-top: 13px;">Hace 5 horas</p>
+                            <p class="titulo3" style="color:  #4F4F4F; font-style: italic; margin-top: 5px;">5 postulaciones</p>
+                        </div>
+                    </div>
+                    <div class="row mt-1 p-2" style="border: 1px solid #000000; border-radius: 10px;">
+                        <div class= "col-md-2">
+                            <center><i class='bx bx-buildings'   style="font-size: 60px; margin-top: 13px;" ></i></center>
+                        </div>
+                        <div class= "col-md-7">
+                            <a class="titulo2" style="font-size: 20px; line-height: 15px; margin-bottom: 0px; text-decoration: none;" href="jobOfferDisplay.jsp" >Practicante Pre profesional de Marketing Digital</a>
+                            <p class="titulo2"  style="font-size: 18px; margin-top: 0px; font-weight: normal;">Veterinaria “Patitas”  |  Lima, Lima, Perú  |  Remoto</p>
+                        </div>
+                        <div class= "col-md-3">
+                            <p class="titulo3"  style="color:  #353535; line-height: 15px; margin-bottom: 0px; margin-top: 13px;">Hace 5 horas</p>
+                            <p class="titulo3" style="color:  #4F4F4F; font-style: italic; margin-top: 5px;">5 postulaciones</p>
+                        </div>
+                    </div>
+                    <div class="row mt-1 p-2" style="border: 1px solid #000000; border-radius: 10px;">
+                        <div class= "col-md-2">
+                            <center><i class='bx bx-buildings'   style="font-size: 60px; margin-top: 13px;" ></i></center>
+                        </div>
+                        <div class= "col-md-7">
+                            <a class="titulo2" style="font-size: 20px; line-height: 15px; margin-bottom: 0px; text-decoration: none;" href="jobOfferDisplay.jsp" >Practicante Pre profesional de Marketing Digital</a>
+                            <p class="titulo2"  style="font-size: 18px; margin-top: 0px; font-weight: normal;">Veterinaria “Patitas”  |  Lima, Lima, Perú  |  Remoto</p>
+                        </div>
+                        <div class= "col-md-3">
+                            <p class="titulo3"  style="color:  #353535; line-height: 15px; margin-bottom: 0px; margin-top: 13px;">Hace 5 horas</p>
+                            <p class="titulo3" style="color:  #4F4F4F; font-style: italic; margin-top: 5px;">5 postulaciones</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -101,12 +210,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
 </body>
-
-<!- FOOTER -->
-<footer class="bg-dark text-white pt-3 pb-2">
-    <div class="container text-center text-md-left" >
-        <p class="titulo5">Diseño de Software - Ciclo VI - Ingeniería de Software</p>
-        <p class="titulo5">Universidad Nacional Mayor de San Marcos | 2021 - II</p>
-    </div>
-</footer>
 </html>
