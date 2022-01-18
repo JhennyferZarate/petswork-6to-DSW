@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: jhenn
-  Date: 12/01/2022
-  Time: 20:40
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 
@@ -171,9 +164,9 @@
                                                 </div>
                                                 <div class="col">
                                                     <p class="titulo3" style="font-size: 14px; color:  #353535; line-height: 10px; margin-top: 18px; font-weight: bold">Solicitado hace 5 horas</p>
-                                                    <button class="btn" style="border: 1.5px solid #000000;
-                                                                box-sizing: border-box;
-                                                                border-radius: 10px;" href="#"><i class="bx bx-cloud-upload" style="font-size: 20px;"></i><span style="margin-left: 7px; font-weight: bold;">CV | Resumé</span></button>
+                                                    <a class="btn btn-primary" role="button" style="border: 1.5px solid #000000;
+                                                        box-sizing: border-box;
+                                                        border-radius: 10px; background-color: white" href="#"><i class="bx bx-cloud-upload" style="font-size: 20px;"></i><span style="margin-left: 7px; font-weight: bold;">CV | Resumé</span></a>
                                                     &nbsp;
 
                                                 </div>
@@ -208,9 +201,9 @@
                                                 </div>
                                                 <div class="col">
                                                     <p class="titulo3" style="font-size: 14px; color:  #353535; line-height: 10px; margin-top: 18px; font-weight: bold">Solicitado hace 5 horas</p>
-                                                    <button class="btn" style="border: 1.5px solid #000000;
-                                                                box-sizing: border-box;
-                                                                border-radius: 10px;" href="#"><i class="bx bx-cloud-upload" style="font-size: 20px;"></i><span style="margin-left: 7px; font-weight: bold;">CV | Resumé</span></button>
+                                                    <a class="btn btn-primary" role="button" style="border: 1.5px solid #000000;
+                                                        box-sizing: border-box;
+                                                        border-radius: 10px; background-color: white" href="#"><i class="bx bx-cloud-upload" style="font-size: 20px;"></i><span style="margin-left: 7px; font-weight: bold;">CV | Resumé</span></a>
                                                     &nbsp;
 
                                                 </div>
@@ -245,9 +238,9 @@
                                                 </div>
                                                 <div class="col">
                                                     <p class="titulo3" style="font-size: 14px; color:  #353535; line-height: 10px; margin-top: 18px; font-weight: bold">Solicitado hace 5 horas</p>
-                                                    <button class="btn" style="border: 1.5px solid #000000;
-                                                                box-sizing: border-box;
-                                                                border-radius: 10px;" href="#"><i class="bx bx-cloud-upload" style="font-size: 20px;"></i><span style="margin-left: 7px; font-weight: bold;">CV | Resumé</span></button>
+                                                    <a class="btn btn-primary" role="button" style="border: 1.5px solid #000000;
+                                                        box-sizing: border-box;
+                                                        border-radius: 10px; background-color: white" href="#"><i class="bx bx-cloud-upload" style="font-size: 20px;"></i><span style="margin-left: 7px; font-weight: bold;">CV | Resumé</span></a>
                                                     &nbsp;
 
                                                 </div>

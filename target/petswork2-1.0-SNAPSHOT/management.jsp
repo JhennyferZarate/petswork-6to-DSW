@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: jhenn
-  Date: 13/01/2022
-  Time: 20:14
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -112,7 +105,7 @@
                         <div class= "col-md-7">
                             <a class="titulo2" style="font-size: 20px; line-height: 15px; margin-bottom: 0px; text-decoration: none;" href="jobOfferManagement.jsp" >Practicante Pre profesional de Marketing Digital</a>
                             <p class="titulo2"  style="font-size: 18px; margin-top: 0px; margin-bottom: 0px; font-weight: normal;">Veterinaria “Patitas”  |  Lima, Lima, Perú  |  Remoto</p>
-                            <p class="titulo2"  style="font-size: 18px;  margin-top: 0px; margin-bottom: 0px; font-weight: normal;">Estado:<a class="type"> Abierto</a></p>
+                            <p class="titulo2"  style="font-size: 18px;  margin-top: 0px; margin-bottom: 0px; font-weight: normal;">Estado:<a class="type" style="text-decoration: none; text-decoration-color: black"> Abierto</a></p>
                         </div>
                         <div class= "col-md-3">
                             <p class="titulo3"  style="color:  #353535; line-height: 15px; margin-bottom: 0px; margin-top: 13px;">Hace 5 horas</p>
@@ -126,7 +119,7 @@
                         <div class= "col-md-7">
                             <a class="titulo2" style="font-size: 20px; line-height: 15px; margin-bottom: 0px; text-decoration: none;" href="jobOfferManagement.jsp" >Practicante Pre profesional de Marketing Digital</a>
                             <p class="titulo2"  style="font-size: 18px; margin-top: 0px; margin-bottom: 0px; font-weight: normal;">Veterinaria “Patitas”  |  Lima, Lima, Perú  |  Remoto</p>
-                            <p class="titulo2"  style="font-size: 18px;  margin-top: 0px; margin-bottom: 0px; font-weight: normal;">Estado:<a class="type"> Abierto</a></p>
+                            <p class="titulo2"  style="font-size: 18px;  margin-top: 0px; margin-bottom: 0px; font-weight: normal;">Estado:<a class="type" style="text-decoration: none; text-decoration-color: black"> Abierto</a></p>
                         </div>
                         <div class= "col-md-3">
                             <p class="titulo3"  style="color:  #353535; line-height: 15px; margin-bottom: 0px; margin-top: 13px;">Hace 5 horas</p>
@@ -140,7 +133,7 @@
                         <div class= "col-md-7">
                             <a class="titulo2" style="font-size: 20px; line-height: 15px; margin-bottom: 0px; text-decoration: none;" href="jobOfferManagement.jsp" >Practicante Pre profesional de Marketing Digital</a>
                             <p class="titulo2"  style="font-size: 18px; margin-top: 0px; margin-bottom: 0px; font-weight: normal;">Veterinaria “Patitas”  |  Lima, Lima, Perú  |  Remoto</p>
-                            <p class="titulo2"  style="font-size: 18px;  margin-top: 0px; margin-bottom: 0px; font-weight: normal;">Estado:<a class="type"> Abierto</a></p>
+                            <p class="titulo2"  style="font-size: 18px;  margin-top: 0px; margin-bottom: 0px; font-weight: normal;">Estado:<a class="type" style="text-decoration: none; text-decoration-color: black"> Abierto</a></p>
                         </div>
                         <div class= "col-md-3">
                             <p class="titulo3"  style="color:  #353535; line-height: 15px; margin-bottom: 0px; margin-top: 13px;">Hace 5 horas</p>
@@ -154,7 +147,7 @@
                         <div class= "col-md-7">
                             <a class="titulo2" style="font-size: 20px; line-height: 15px; margin-bottom: 0px; text-decoration: none;" href="jobOfferManagement.jsp" >Practicante Pre profesional de Marketing Digital</a>
                             <p class="titulo2"  style="font-size: 18px; margin-top: 0px; margin-bottom: 0px; font-weight: normal;">Veterinaria “Patitas”  |  Lima, Lima, Perú  |  Remoto</p>
-                            <p class="titulo2"  style="font-size: 18px;  margin-top: 0px; margin-bottom: 0px; font-weight: normal;">Estado:<a class="type"> Abierto</a></p>
+                            <p class="titulo2"  style="font-size: 18px;  margin-top: 0px; margin-bottom: 0px; font-weight: normal;">Estado:<a class="type" style="text-decoration: none"style="text-decoration: none; text-decoration-color: black"> Abierto</a></p>
                         </div>
                         <div class= "col-md-3">
                             <p class="titulo3"  style="color:  #353535; line-height: 15px; margin-bottom: 0px; margin-top: 13px;">Hace 5 horas</p>
@@ -168,7 +161,7 @@
                         <div class= "col-md-7">
                             <a class="titulo2" style="font-size: 20px; line-height: 15px; margin-bottom: 0px; text-decoration: none;" href="jobOfferManagement.jsp" >Practicante Pre profesional de Marketing Digital</a>
                             <p class="titulo2"  style="font-size: 18px; margin-top: 0px; margin-bottom: 0px; font-weight: normal;">Veterinaria “Patitas”  |  Lima, Lima, Perú  |  Remoto</p>
-                            <p class="titulo2"  style="font-size: 18px;  margin-top: 0px; margin-bottom: 0px; font-weight: normal;">Estado:<a class="type"> Abierto</a></p>
+                            <p class="titulo2"  style="font-size: 18px;  margin-top: 0px; margin-bottom: 0px; font-weight: normal;">Estado:<a class="type" style="text-decoration: none; text-decoration-color: black"> Abierto</a></p>
                         </div>
                         <div class= "col-md-3">
                             <p class="titulo3"  style="color:  #353535; line-height: 15px; margin-bottom: 0px; margin-top: 13px;">Hace 5 horas</p>
@@ -182,7 +175,7 @@
                         <div class= "col-md-7">
                             <a class="titulo2" style="font-size: 20px; line-height: 15px; margin-bottom: 0px; text-decoration: none;" href="jobOfferManagement.jsp" >Practicante Pre profesional de Marketing Digital</a>
                             <p class="titulo2"  style="font-size: 18px; margin-top: 0px; margin-bottom: 0px; font-weight: normal;">Veterinaria “Patitas”  |  Lima, Lima, Perú  |  Remoto</p>
-                            <p class="titulo2"  style="font-size: 18px;  margin-top: 0px; margin-bottom: 0px; font-weight: normal;">Estado:<a class="type"> Abierto</a></p>
+                            <p class="titulo2"  style="font-size: 18px;  margin-top: 0px; margin-bottom: 0px; font-weight: normal;">Estado:<a class="type" style="text-decoration: none; text-decoration-color: black"> Abierto</a></p>
                         </div>
                         <div class= "col-md-3">
                             <p class="titulo3"  style="color:  #353535; line-height: 15px; margin-bottom: 0px; margin-top: 13px;">Hace 5 horas</p>

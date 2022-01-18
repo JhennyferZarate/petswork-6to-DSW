@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: jhenn
-  Date: 8/01/2022
-  Time: 19:30
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -117,9 +110,9 @@
 
                     </div>
                     <div class="col-md-1" style="margin-left: 2px;">
-                        <button class="btn" style="border: 1.5px solid #000000;
+                        <a class="btn btn-primary" role="button" style="border: 1.5px solid #000000;
                               box-sizing: border-box;
-                              border-radius: 10px;"><i class='bx bx-edit-alt' ></i></button>
+                              border-radius: 10px; background-color: white" href="updateInformation.jsp"><i class='bx bx-edit-alt' ></i></a>
                     </div>
                 </div>
                 <div class="row mt-4">
@@ -149,9 +142,9 @@
 
                     </div>
                     <div class="col-md-3">
-                        <button class="btn" style="border: 1.5px solid #000000;
+                        <a class="btn btn-primary" role="button" style="border: 1.5px solid #000000;
                           box-sizing: border-box;
-                          border-radius: 10px;"><i class='bx bx-cloud-upload' style="font-size: 20px;"></i><span style="margin-left: 7px;">CV | Resumé</span></button>
+                          border-radius: 10px; background-color: white" href="#"><i class='bx bx-cloud-upload' style="font-size: 20px;"></i><span style="margin-left: 7px;">CV | Resumé</span></a>
                     </div>
                 </div>
             </div>
