@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: jhenn
-  Date: 12/01/2022
-  Time: 20:15
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -95,7 +88,7 @@
                             padding-left: 0px;
                             padding-right: 0px;
                             padding-bottom: 1rem;" >
-                    <p class="titulo2" style=" font-size: 22px;line-height: normal;"><i class='bx bx-arrow-back' href="home.jsp" style="margin-right: 10px; font-size: 18px; "></i>Avisos Laborales</p>
+                    <a class="titulo2" style=" font-size: 22px;line-height: normal;" href="home.jsp"><i class='bx bx-arrow-back' style="margin-right: 10px; font-size: 18px; "></i>Avisos Laborales</a>
             </div>
                 </div>
             <div class="col" >
