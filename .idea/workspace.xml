@@ -10,32 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="472f7328-6c5e-4085-9785-ac78974b1ed5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/updateInformation.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/accountCheck.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/accountCheck.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/changePassword.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/changePassword.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jobOfferDisplay.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jobOfferDisplay.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jobOfferManagement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jobOfferManagement.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/management.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/management.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/myProfile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/myProfile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/postJobOffer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/postJobOffer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/visitorProfile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/visitorProfile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/accountCheck.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/accountCheck.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/changePassword.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/changePassword.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/jobOfferDisplay.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/jobOfferDisplay.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/updateInformation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/updateInformation.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/jobOfferManagement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/jobOfferManagement.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/management.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/management.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/myProfile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/myProfile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/postJobOffer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/postJobOffer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/visitorProfile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/visitorProfile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/updateInformation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/updateInformation.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +171,7 @@
       <workItem from="1641907655523" duration="1718000" />
       <workItem from="1642027655319" duration="10380000" />
       <workItem from="1642107668802" duration="5106000" />
-      <workItem from="1642435507175" duration="8857000" />
+      <workItem from="1642435507175" duration="13171000" />
     </task>
     <servers />
   </component>
