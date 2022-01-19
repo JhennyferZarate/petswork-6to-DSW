@@ -10,9 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="472f7328-6c5e-4085-9785-ac78974b1ed5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/404notfound.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/postJobOffer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/postJobOffer.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/updateInformation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/updateInformation.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/jobOfferManagement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/jobOfferManagement.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/postJobOffer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/postJobOffer.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/updateInformation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/petswork2-1.0-SNAPSHOT/updateInformation.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +175,9 @@
       <workItem from="1641907655523" duration="1718000" />
       <workItem from="1642027655319" duration="10380000" />
       <workItem from="1642107668802" duration="5106000" />
-      <workItem from="1642435507175" duration="13171000" />
+      <workItem from="1642435507175" duration="14054000" />
+      <workItem from="1642496863122" duration="600000" />
+      <workItem from="1642536409069" duration="3965000" />
     </task>
     <servers />
   </component>

@@ -237,7 +237,7 @@
                                     </select>
                                 </div>
                                 <div class="d-grid">
-                                    <a class="btn titulo4" type="submit" href="myProfile.jsp" role="button">Publicar</a>
+                                    <a class="btn titulo4" type="submit" href="myProfile.jsp" role="button">Guardar</a>
                                 </div>
                                 <div class="my-3 text-center" style="font-weight: bold;">
                                     <span><a href="myProfile.jsp">Cancelar</a></span>

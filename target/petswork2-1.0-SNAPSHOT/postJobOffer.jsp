@@ -113,7 +113,7 @@
 
                 <form action="#" class="needs-validation" novalidate>
                     <div class="mb-4">
-                        <%--@declare id="jobtitle"--%><label for="jobTitle" class="form-label titulo">Cargo:</label>
+                        <%--@declare id="jobtitle"--%><label for="jobTitle" class="form-label titulo">Título del Trabajo:</label>
                         <input type="text" id="validationJobTitle" class="form-control" name="jobTitle" placeholder="Ingrese el cargo a brindar" required>
                         <!--div class="valid-feedback" id="jobTitleValid">
                             ¡Excelente!
@@ -145,15 +145,19 @@
                         <input type="text" class="form-control" name="location" placeholder="Ingrese la ubicación de la empresa" required>
                     </div>
                     <div class="mb-4">
-                    <%--@declare id="typework"--%><label for="typeWork" class="form-label titulo">Tipo de lugar de trabajo:</label>
-                    <select type="text" id="validationTypeWork" class="form-select" name="typeWork" placeholder="Seleccione una opción" required>
-                        <option value="1">Jornada Completa</option>
-                        <option value="2">Media Jornada</option>
-                        <option value="3">Contrato por Obra</option>
-                        <option value="4">Temporal</option>
-                        <option value="5">Voluntario</option>
-                        <option value="6">Prácticas</option>
-                    </select>
+                        <%--@declare id="typework"--%><label for="typeWork" class="form-label titulo">Tipo de lugar de trabajo:</label>
+                        <select type="text" id="validationTypeWork" class="form-select" name="typeWork" placeholder="Seleccione una opción" required>
+                            <option value="1">Jornada Completa</option>
+                            <option value="2">Media Jornada</option>
+                            <option value="3">Contrato por Obra</option>
+                            <option value="4">Temporal</option>
+                            <option value="5">Voluntario</option>
+                            <option value="6">Prácticas</option>
+                        </select>
+                    </div>
+                    <div class="mb-4 form-group">
+                        <label for="information" class="form-label titulo">Información del empleo:</label>
+                        <textarea class="form-control" id="information" rows="3"></textarea>
                     </div>
                     <div class="d-grid">
                         <a class="btn titulo4" type="submit" href="jobOfferManagement.jsp" role="button">Publicar</a>
@@ -178,13 +182,4 @@
     -->
 
 </body>
-
-<!- FOOTER -->
-<footer class="bg-dark text-white pt-3 pb-2">
-    <div class="container text-center text-md-left" >
-        <p class="titulo5">Diseño de Software - Ciclo VI - Ingeniería de Software</p>
-        <p class="titulo5">Universidad Nacional Mayor de San Marcos | 2021 - II</p>
-    </div>
-</footer>
-
 </html>
